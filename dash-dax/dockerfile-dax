@@ -1,0 +1,11 @@
+FROM python:3
+
+COPY requirements-dax.txt /
+RUN pip install -r /requirements-dax.txt
+
+RUN mkdir /myworkdir
+WORKDIR /myworkdir
+COPY ./ ./
+
+EXPOSE 8050
+CMD ["python", "./app-dax.py"]

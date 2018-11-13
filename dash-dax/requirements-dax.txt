@@ -1,0 +1,12 @@
+dash
+dash-renderer
+dash-core-components
+dash-html-components
+dash-table-experimentS
+plotly
+pandas
+quandl
+lxml
+html5lib
+BeautifulSoup4
+python-dotenv
