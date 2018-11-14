@@ -2,23 +2,11 @@ version: '3.1'
 
 services:
 
-  # https-portal:
-  #   image: steveltn/https-portal:1
-  #   ports:
-  #     - '80:80'
-  #     - '443:443'
-    
-  #   environment:
-  #     DOMAINS: 'dash.arthought.com -> http://dash'
-  #     STAGE: staging # production
-  #     FORCE_RENEW: 'false'
-
   dash:
     build:
       context: ./
       dockerfile: dockerfile-simple
-    # environment:
-    #   - VIRTUAL_HOST=dash.arthought.com
+
     ports:
       - 8050:8050
       
