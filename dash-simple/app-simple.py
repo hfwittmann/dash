@@ -11,7 +11,7 @@ app.scripts.config.serve_locally=True
 
 
 app.layout = html.Div(children=[
-    html.H1(children='Hello Dash'),
+    html.H1(children='Hello Sebastian, wünsche schönes ..'),
 
     html.Div(children='''
         Dash: A web application framework for Python.
